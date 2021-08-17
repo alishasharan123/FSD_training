@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<script language = "javascript" type = "text/javascript">
+
+function calc()
+{
+   // JavaScript program to find the area of a triangle
+
+var  celToFah = parseInt(prompt('Enter temp in celsius: '));
+var FahToCel = parseInt(prompt('Enter temp in fahrenheit: '));
+cToF(celToFah);
+fToC(FahToCel);
+
+function cToF(celsius) 
+{
+  var cTemp = celsius;
+  var cToFahr = cTemp * 9 / 5 + 32;
+  var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+    document.write(message);
+}
+
+function fToC(fahrenheit) 
+{
+  var fTemp = fahrenheit;
+  var fToCel = (fTemp - 32) * 5 / 9;
+  var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+    document.write(message);
+} 
+
+
+
+
+}
+</script>
+<title>Temperature Conversion</title>
+</head>
+<body>
+<p></p>
+
+<button onclick="calc()">Click for conversion</button>
+
+
+</body>
+</html>
