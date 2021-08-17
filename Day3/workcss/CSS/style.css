@@ -1,0 +1,330 @@
+/* header formatting section begins here */
+.header-container{
+    background-color: rgb(0, 179, 143);
+    height: 15vh;
+    border-bottom: 2px solid rgb(0, 179, 143);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+.company-logo{
+    height: 12vh;
+}
+
+.nav-bar{
+    margin-left: 10vw;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+}
+
+button{
+    background: rgb(0, 179, 143);
+    color: rgb(0, 179, 143);
+    border: 2px solid rgb(0, 179, 143);
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+.darkbut:hover{
+  background:rgb(153, 0, 153);
+    color: rgba(7, 1, 6, 0.986);
+    border: 2px solid rgb(0, 7, 6);
+}
+
+.darkbut{
+  background: rgb(0, 10, 8);
+  color: rgba(247, 242, 246, 0.986);
+  border: 2px solid rgb(0, 7, 6);
+
+}
+.readblack
+{
+  background: rgb(251, 252, 252);
+  color: rgba(10, 0, 8, 0.986);
+  border: 2px solid rgb(0, 7, 6);
+
+}
+.readblack:hover{
+  background:rgb(7, 0, 7);
+    color: rgba(248, 240, 247, 0.986);
+    border: 2px solid rgb(252, 253, 253);
+}
+
+
+button:hover{
+    background:rgb(24, 23, 23);
+    color: rgb(153, 0, 153);
+    border: 2px solid rgb(153, 0, 153);
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+
+
+/*header formatting section ends here */
+/*main section formatting starts here*/
+.hero-unit-container{
+    mask-image: url("../images/food2.jpg");
+    height:70vh;
+    text-align: center;
+}
+.hero-unit-container h1{
+    
+    margin: 0em;
+    padding-top: 20vh;
+    font-size: 5em;
+}
+.paper-layout-section{
+    background-color: rgb(0, 179, 143);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    color: white;
+}
+
+.sec-section{
+  background-color: rgb(255, 163, 26);
+  color: white;
+}
+.third-section
+{
+  background-color: rgb(30, 125, 202);
+  color: white;
+}
+
+.fourth-section
+{
+  background-color:rgb(153, 0, 153);
+  color: white;
+}
+.fifth-section
+{
+  background-color:rgb(8, 0, 8);
+  color: white;
+}
+
+ 
+  .foot-section{
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+   
+   }
+    .pic{
+      transition: all 0.3s linear;
+    }
+
+    .pic img:hover {
+      background-color: rgb(195, 233, 27);
+      color: rgb(190, 24, 24);
+    }
+
+   .foot-section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    transition: width 2s;
+    color: rgb(15, 15, 15);
+}
+
+.paper-layout-section h2{
+    text-align: center;
+}
+
+.paper-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    transition: width 2s;
+    color: white;
+}
+
+.card img{
+    height: 35vh;
+    width:15vw;
+}
+
+.card img:hover {
+    background-color: rgb(195, 233, 27);
+    color: rgb(190, 24, 24);
+  }
+
+.card{
+    background-color: rgba(117, 182, 142, 0.336);
+    text-align: center;
+    height: 65vh;
+    width:18vw;
+    padding: 1em;
+    transition: all 0.3s linear;
+    box-shadow: 5px 5px 30px rgb(153, 149, 149); /*Paper layout projection*/
+}
+.card:hover{
+     transform: scale(1.1);
+}
+footer{
+    background-color: rgb(228, 252, 237);
+    height: 15vh;
+    text-align: center;
+    border: 2px solid white;
+    margin: 0;
+}
+
+footer h2{
+    padding-top: 1em;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+
+    .bfooter img{
+      height: 35vh;
+      width:15vw;
+  }
+  
+  .bfooter img:hover {
+      background-color: rgb(195, 233, 27);
+      color: rgb(190, 24, 24);
+    }
+  
+  .bfooter{
+      background-color: rgb(206, 24, 33);
+      text-align: center;
+      height: 65vh;
+      width:18vw;
+      padding: 1em;
+      transition: all 0.3s linear;
+      box-shadow: 5px 5px 30px rgb(54, 53, 53); /*Paper layout projection*/
+  }
+  .bfooter:hover{
+       transform: scale(1.1);
+  }
+   
+
+  .foot-section-container {
+    position: relative;
+    width: 50%;
+    align-items: center;
+  }
+  
+  .pic {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
